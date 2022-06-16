@@ -1,0 +1,299 @@
+body {
+    background: url('../img/Border-Neon-Black-Wallpaper-09-300x585.jpg')
+}
+.header {
+    background: url('../img/istockphoto-668459274-170667a.jpg') center center;
+    background-size: cover;
+    height: 100vh;
+}
+.active{
+    color: #fff !important;
+    border-bottom: 1px solid #d27223;
+}
+.menu-top {
+    width: 100%;
+    z-index: 1
+  }
+  .menu-top .navbar {
+    background: rgb(0, 0, 0, .5) !important;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .menu-top .collapse {
+    margin-left: 330px;
+  }
+  .menu-top .nav-link {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .menu-top .navbar-brand  {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    margin-left: 22px;
+  }
+.portfolio {
+    /* width: 1100px; */
+    margin: auto;
+    position: relative;
+    bottom: 95px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.portfolio .hello {
+    background: #000;
+    color: #fff;
+    width: 100%;
+}
+.portfolio .hello h2 { 
+    font-weight: 700;
+    font-size: 50px;
+    color: #d27223;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portfolio .hello p {
+    font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+.portfolio .about-me{
+    display: flex;
+    width: 100%;
+}
+.portfolio .about-me img {
+    width: 100%;
+    height: 500px;
+}
+.portfolio .about-me .col-lg-5 {
+    background: #ffffff;
+}
+.portfolio .about-me .col-lg-5 h3{
+   font-weight: 700;
+   font-size: 25px;
+   color: #000000;
+   padding-top: 10px;
+   padding-bottom: 15px;
+   border-bottom: 3px solid #7e7e7e;
+}
+.portfolio .about-me .col-lg-5 h5 {
+    padding-top: 15px;
+    padding-bottom: 12px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #1b1b1b;
+}
+.portfolio .about-me .col-lg-5 p {
+    font-weight: 600;
+    font-size: 17px;
+    color: #1b1b1b;
+}
+.portfolio .comments {
+    margin-top: 20px;
+    background: #000000;
+/*     justify-content: space-between; */
+    width: 100%;
+    padding: 0 15px;
+}
+.portfolio .comments h3 {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: 1px solid #fff;
+}
+.portfolio .comments p {
+    padding-bottom: 10px;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+}
+.portfolio .comments h6 {
+    font-weight: 400;
+    font-family: italic;
+    color: #ffffff;
+    font-size: 18px;
+}
+.portfolio .comments .fa {
+    font-size: 10px;
+    color: #ffffff;
+}
+.portfolio .projects img {
+   width: 100%;
+   height: 50vh;
+}
+.portfolio .skill {
+    background: #ffffff;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.portfolio .skill h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #000;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.portfolio .skill .fa {
+    font-size: 55px;
+    padding-bottom: 20px;
+}
+.portfolio .skill img {
+    width: 80px;
+    height: 80px;
+    padding-bottom: 20px;
+}
+.portfolio .skill h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #000;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.portfolio .skill .info {
+    margin: 0 50px;
+    padding: 40px 0;
+    background: #000000;
+    border-radius: 30px;
+    
+}
+.portfolio .skill .info h4 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #7e7e7e;
+}
+.portfolio .skill .info .first p {
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 25px 0;
+}
+.portfolio .skill .info .second p {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 7px;
+    padding-right: 30px;
+}
+.portfolio .skill .info h5 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 30px;
+    color: #ffffff;
+}
+.portfolio .contact {
+    background: #000000;
+    width: 100%;
+    padding: 0 20px ;
+}
+.portfolio .contact h3 {
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: #d27223;
+}
+.portfolio .contact h4 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.portfolio .contact p {
+    font-size: 22px;
+    color: #979696;
+    padding-bottom: 20px;
+}
+.portfolio .contact .fa {
+    font-size: 55px;
+    color: #d27223;
+    padding-bottom: 15px;
+}
+.portfolio .contact .arrow {
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.portfolio .contact .fa-arrow-up {
+    font-size: 35px;
+    color: #000;
+    padding: 0 10px;
+}
+.portfolio .contact .row h5 {
+    font-size: 25px;
+    color: #ffffff;
+}
+.portfolio .contact .row p {
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+@media(max-width: 992px){
+    .menu-top .collapse{
+        margin-left: 0;
+    }
+    .portfolio .hello h2 {
+        font-size: 30px;
+    }
+    .portfolio .hello h3 {
+        font-size: 20px;
+    }
+    .portfolio .hello p {
+        font-size: 15px;
+    }
+    .portfolio .hello{
+        text-align: left !important;
+        padding-left: 15px;
+    }
+    .portfolio .skill .info .first p {
+        font-size: 15px;
+    }
+    .portfolio .skill .info .second p {
+        font-size: 20px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .portfolio .contact h3 {
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .portfolio .contact h4 {
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .portfolio .contact p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .portfolio .contact .fa {
+        font-size: 45px;
+    }
+    .portfolio .contact .row h5 {
+        font-size: 22px;
+    }
+    .portfolio .contact .row p {
+        font-size: 19px;
+    }
+}
+@media(max-width: 776px){
+    .portfolio .skill .fa {
+        font-size: 90px;
+    }
+    .portfolio .skill img {
+        width: 90px;
+        height: 90px;
+        object-fit: 100%;
+    }
+}
