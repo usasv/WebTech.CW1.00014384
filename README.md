@@ -4,4 +4,4 @@ This website was created to fulfill Web Technology module’s requirements and d
 
 https://github.com/usasv/WebTech.CW1.00014384
 
-https://courageous-granita-e456b0.netlify.app/
+https://webtechcw1.netlify.app/
